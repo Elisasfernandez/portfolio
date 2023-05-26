@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1 class="name">Elisa S Fernández</h1>
+
+        <input class="checkbox" type="checkbox" id="side-menu"/>
+        <div class="navbar-links">
+            <a href="" target="_blank" class="link">About</a>
+            <a href="" target="_blank" class="link">Contact</a>
+            <a href="" target="_blank" class="link cv-arrow">CV <img class="arrow-down"  src="assets/svg/arrow-down.svg" alt="arrow-down"></a>
+        </div>
+        <label for="side-menu" class="hamburguer-container">
+            <img for="side-menu" id="side-menu" class="hamburguer"  src="assets/svg/hamburguer.svg" alt="menu">
+        </label>       
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="bouncingball"></div>
+            <div class="hero-title"data-aos="fade-in" data-aos-duration="3000">
+                <h2> Hola! I’m Elisa </h2>
+                <h3> I am a UI UX designer based in Madrid.</h3>
+            </div>
+            
+            <div class="mywork-link">
+                <h4> my work</h4>
+                <img class="arrow" src="assets/img/arrow.gif">
+            </div>
+        </section>
+
+        <section class="cards-container">
+            <div class="card">
+                <div class="img-container card-1-background">
+                    <img class="img-card" src="assets/png/img-blabla.png">  
+                </div>
+                <div class="card-description">
+                    <p class="card-title">BlaBlaCar Routines</p>
+                    <p class="card-info">BlaBlaCar Routines is a redesign and create new flow.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-container card-2-background">
+                    <img class="img-card" src="assets/png/img-coleapp.png">
+                </div>
+                <div class="card-description">
+                    <p class="card-title">Cole App</p>
+                    <p class="card-info">Cole App is a mobile app to allow parents pay school invoces and
+                        manage permits. </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class= footer-container>
+            <p> Elisa S Ferández</p>
+
+            <div class="footer-links">
+                <a class="footer-link" id="contact"> Contact </a>
+               <a class="footer-link" href="https://www.instagram.com/elimita/?hl=es" target="_blank"><img class="icon" src="assets/svg/logo-instagram.svg"></a> 
+               <a class="footer-link" href="https://www.linkedin.com/in/elisasanchezfernandez/" target="_blank"><img class="icon" src="assets/svg/logo-linkedin.svg"></a>
+               <a class="footer-link" href="https://www.behance.net/elisa-sf" target="_blank"><img class="icon" src="assets/svg/logo-behance.svg"></a> 
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
